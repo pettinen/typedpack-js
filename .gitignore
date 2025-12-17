@@ -1,0 +1,9 @@
+/build/
+/bun.lock
+/deno.lock
+/dist/
+/node_modules/
+/package-lock.json
+/pnpm-lock.yaml
+/tests/fixtures/types.ts
+/tests/tsconfig.tsbuildinfo

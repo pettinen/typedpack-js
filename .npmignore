@@ -1,0 +1,12 @@
+/.prettierrc.toml
+/.swcrc
+/build/
+/bun.lock
+/deno.lock
+/dist/tsconfig.tsbuildinfo
+/eslint.config.js
+/package-lock.json
+/pnpm-lock.yaml
+/src/
+/tests/
+/tsconfig.base.json

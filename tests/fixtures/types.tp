@@ -1,0 +1,314 @@
+struct TestBoolean {
+    bool x = 0;
+}
+
+struct TestOptionalBoolean {
+    optional bool x = 0;
+}
+
+struct TestNullableBoolean {
+    nullable bool x = 0;
+}
+
+struct TestOptionalNullableBoolean {
+    optional nullable bool x = 0;
+}
+
+struct TestUint8 {
+    uint8 x = 0;
+}
+
+struct TestOptionalUint8 {
+    optional uint8 x = 0;
+}
+
+struct TestNullableUint8 {
+    nullable uint8 x = 0;
+}
+
+struct TestOptionalNullableUint8 {
+    optional nullable uint8 x = 0;
+}
+
+struct TestInt8 {
+    int8 x = 0;
+}
+
+struct TestOptionalInt8 {
+    optional int8 x = 0;
+}
+
+struct TestNullableInt8 {
+    nullable int8 x = 0;
+}
+
+struct TestOptionalNullableInt8 {
+    optional nullable int8 x = 0;
+}
+
+struct TestUint16 {
+    uint16 x = 0;
+}
+
+struct TestOptionalUint16 {
+    optional uint16 x = 0;
+}
+
+struct TestNullableUint16 {
+    nullable uint16 x = 0;
+}
+
+struct TestOptionalNullableUint16 {
+    optional nullable uint16 x = 0;
+}
+
+struct TestInt16 {
+    int16 x = 0;
+}
+
+struct TestOptionalInt16 {
+    optional int16 x = 0;
+}
+
+struct TestNullableInt16 {
+    nullable int16 x = 0;
+}
+
+struct TestOptionalNullableInt16 {
+    optional nullable int16 x = 0;
+}
+
+struct TestUint32 {
+    uint32 x = 0;
+}
+
+struct TestOptionalUint32 {
+    optional uint32 x = 0;
+}
+
+struct TestNullableUint32 {
+    nullable uint32 x = 0;
+}
+
+struct TestOptionalNullableUint32 {
+    optional nullable uint32 x = 0;
+}
+
+struct TestInt32 {
+    int32 x = 0;
+}
+
+struct TestOptionalInt32 {
+    optional int32 x = 0;
+}
+
+struct TestNullableInt32 {
+    nullable int32 x = 0;
+}
+
+struct TestOptionalNullableInt32 {
+    optional nullable int32 x = 0;
+}
+
+struct TestUint64 {
+    uint64 x = 0;
+}
+
+struct TestOptionalUint64 {
+    optional uint64 x = 0;
+}
+
+struct TestNullableUint64 {
+    nullable uint64 x = 0;
+}
+
+struct TestOptionalNullableUint64 {
+    optional nullable uint64 x = 0;
+}
+
+struct TestInt64 {
+    int64 x = 0;
+}
+
+struct TestOptionalInt64 {
+    optional int64 x = 0;
+}
+
+struct TestNullableInt64 {
+    nullable int64 x = 0;
+}
+
+struct TestOptionalNullableInt64 {
+    optional nullable int64 x = 0;
+}
+
+struct TestFloat32 {
+    float32 x = 0;
+}
+
+struct TestOptionalFloat32 {
+    optional float32 x = 0;
+}
+
+struct TestNullableFloat32 {
+    nullable float32 x = 0;
+}
+
+struct TestOptionalNullableFloat32 {
+    optional nullable float32 x = 0;
+}
+
+struct TestFloat64 {
+    float64 x = 0;
+}
+
+struct TestOptionalFloat64 {
+    optional float64 x = 0;
+}
+
+struct TestNullableFloat64 {
+    nullable float64 x = 0;
+}
+
+struct TestOptionalNullableFloat64 {
+    optional nullable float64 x = 0;
+}
+
+struct TestString {
+    string x = 0;
+}
+
+struct TestOptionalString {
+    optional string x = 0;
+}
+
+struct TestNullableString {
+    nullable string x = 0;
+}
+
+struct TestOptionalNullableString {
+    optional nullable string x = 0;
+}
+
+struct TestBytes {
+    bytes x = 0;
+}
+
+struct TestOptionalBytes {
+    optional bytes x = 0;
+}
+
+struct TestNullableBytes {
+    nullable bytes x = 0;
+}
+
+struct TestOptionalNullableBytes {
+    optional nullable bytes x = 0;
+}
+
+struct TestMultipleFields {
+    bool foo = 0;
+    int32 bar = 1;
+}
+
+struct TestMultipleNonConsecutiveFields {
+    optional bool foo = 64;
+    int32 bar = 127;
+}
+
+struct TestNestedStruct {
+    TestBoolean x = 0;
+}
+
+struct TestArrayOfBoolean {
+    bool[] x = 0;
+}
+
+struct TestArrayOfUint8 {
+    uint8[] x = 0;
+}
+
+struct TestArrayOfInt8 {
+    int8[] x = 0;
+}
+
+struct TestArrayOfUint16 {
+    uint16[] x = 0;
+}
+
+struct TestArrayOfInt16 {
+    int16[] x = 0;
+}
+
+struct TestArrayOfUint32 {
+    uint32[] x = 0;
+}
+
+struct TestArrayOfInt32 {
+    int32[] x = 0;
+}
+
+struct TestArrayOfUint64 {
+    uint64[] x = 0;
+}
+
+struct TestArrayOfInt64 {
+    int64[] x = 0;
+}
+
+struct TestArrayOfFloat32 {
+    float32[] x = 0;
+}
+
+struct TestArrayOfFloat64 {
+    float64[] x = 0;
+}
+
+struct TestArrayOfString {
+    string[] x = 0;
+}
+
+struct TestArrayOfBytes {
+    bytes[] x = 0;
+}
+
+struct TestArrayOfBytes8 {
+    bytes8[] x = 0;
+}
+
+struct TestArrayOfArrayOfBytes0 {
+    bytes0[][] x = 0;
+}
+
+struct TestArrayOfArrayOfArrayOfUint8 {
+    uint8[][][] x = 0;
+}
+
+struct TestOptionalArrayOfBoolean {
+    optional bool[] x = 0;
+}
+
+struct TestNullableArrayOfBoolean {
+    nullable bool[] x = 0;
+}
+
+struct TestOptionalNullableArrayOfBoolean {
+    optional nullable bool[] x = 0;
+}
+
+struct TestEmptyStruct {}
+
+enum TestEnum {
+    A = 0;
+    B = 1;
+    C = 127;
+}
+
+struct TestEnumInStruct {
+    TestEnum x = 0;
+}
+
+enum TestTaggedEnum {
+    TestBoolean A = 0;
+    TestUint8 B = 1;
+}

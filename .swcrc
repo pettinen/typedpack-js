@@ -1,0 +1,19 @@
+{
+    "$schema": "https://swc.rs/schema.json",
+    "jsc": {
+        "baseUrl": ".",
+        "parser": {
+            "syntax": "typescript"
+        },
+        "paths": {
+            "typedpack": ["../dist/index.js"]
+        },
+        "target": "esnext"
+    },
+    "minify": true,
+    "module": {
+        "resolveFully": true,
+        "type": "es6"
+    },
+    "sourceMaps": true
+}

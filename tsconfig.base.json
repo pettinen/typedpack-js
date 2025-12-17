@@ -1,0 +1,37 @@
+{
+    "compilerOptions": {
+        // project
+        "composite": true,
+
+        // emit
+        "declarationMap": true,
+        "sourceMap": true,
+
+        // type checking
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+
+        // modules
+        "module": "esnext",
+        "moduleResolution": "bundler",
+        "noUncheckedSideEffectImports": true,
+
+        // interop constraints
+        "verbatimModuleSyntax": true,
+
+        // language and environment
+        "target": "esnext",
+
+        // completeness
+        "skipLibCheck": true
+    }
+}
